@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="style/html5reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-227LERLX9K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-227LERLX9K');
+</script>
+
+<nav class="topnav">
+  <img href="index.html" src="imgs/logo.png" alt="logo" id = "logo" style="width: 75px; animation: none">
+  <a href="index.html">About</a>
+  <a href="projects.html">Projects</a>
+  <a href="side_projects.html">Side Projects</a>
+  <a class="active" href="#main">Contact</a>
+</nav>
+
+<body  tabindex="0">
+<h1>Let's Chat</h1>
+<main>    
+  <p>Now more then ever it's important to connect. Are you a current UX or Product Designer? Curent student? Or, interested in learning more about what I do? I'd love to chat with you.</p>
+    <div class="contact-container">
+      <div style="text-align:center">
+        <h2 id="main"> Contact Me</h2>
+        <p>Let's have a coffee over Zoom, leave me a message:</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="imgs/coffee.jpg" style="width: 100%">
+        </div>
+        <div class="column">
+          <form action="/action_page.php" >
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." tabindex="1">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." tabindex="2">
+            <label for="country">Country</label>
+            <select id="country" name="country" tabindex="3">
+              <option value="usa">USA</option>
+              <option value="canada">Canada</option>
+              <option value="other">Other</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px" tabindex="4"></textarea>
+            <input type="submit" value="Submit" tabindex="5">
+          </form>
+        </div>
+      </div>
+    </div>
+</main>
+
+<footer>
+<p>Gina Spelman &copy 2020</p>
+</footer>
+</body>
+</html>

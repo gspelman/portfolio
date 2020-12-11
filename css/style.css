@@ -1,0 +1,445 @@
+
+body{
+	font-family: 'Montserrat', sans-serif; /* Test for this*/
+	margin: 10px;
+  padding: 3%;
+	font-size: 16pt; /* test for this! Make all sizes em or rem */
+	color:  rgb(83, 83, 83);
+	text-align: center;
+}
+  
+  /* Style the header */
+  .header {
+	grid-area: header;
+	background-color: #f1f1f1;
+	text-align: center;
+  font-size: 35px;
+  }
+  
+  
+/*Headers*/
+  h1{
+	font-size: 2em;
+	text-align: center;
+	line-height: 2;
+  }
+  
+  h2{
+	font-size: 1.5em;
+	text-align: center;
+  }
+
+  h3{
+	  font-size: 1em;
+  }
+  h4{
+	font-size: .75em;
+  }
+
+
+  
+  footer{
+	background-color: white;
+	color: rgb(83, 83, 83);
+	padding: 5%;
+	text-align: center;
+  }
+
+
+ /* menu*/
+ 
+/* Style tab links */
+.topnav {
+overflow: hidden;
+background-color: white;
+padding: 20px 10px;
+  }
+  
+  .logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 75px;
+    height: auto;
+    margin-right: 20px;
+  }
+
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+  }
+  
+  .topnav a:hover {
+	background-color: #8b8b8b;
+	color: white;
+  }
+  
+  .topnav a.active {
+	background-color: #00c6f8;
+	color: white;
+  }
+
+
+
+  @-webkit-keyframes logo_wiggle{
+    from {width: 15px}
+    to {width: 75x}
+  }
+  
+  @keyframes logo_wiggle{
+    from {width: 15px}
+    to {width: 75px}
+  } 
+  
+  #logo{
+    -webkit-animation: logo_wiggle 1s;
+    animation: logo_wiggle 1s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+
+
+
+/* Side Projects Gallery! */
+.gallery{
+	min-height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  align-items: space-around;
+  }
+  
+  .gallery > img{
+	margin: 10px;
+	width: 325px;
+	height: 450px;
+  }
+  .gallery #image12{
+	margin: 10px;
+	width: 325px;
+	height: 325px;
+  }
+/*filter code and modifidied from https://www.codeblocq.com/2016/08/Turn-an-image-to-Black-and-White-on-hover-with-CSS/ */
+  #image1 {
+    transition: filter .1s ease-in-out;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+  }
+  
+  #image1:hover {
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+  }
+
+  #image2 {
+    transition: filter .1s ease-in-out;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+  }
+  
+  #image2:hover {
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+  }
+  #image3 {
+    transition: filter .1s ease-in-out;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+  }
+  
+  #image3:hover {
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+  }
+  #image4 {
+    transition: filter .1s ease-in-out;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+  }
+  
+  #image4:hover {
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+  }
+  #image5 {
+    transition: filter .1s ease-in-out;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+  }
+  
+  #image5:hover {
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+  }
+  #image6 {
+    transition: filter .1s ease-in-out;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+  }
+  
+  #image6:hover {
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+  }
+  #image7 {
+    transition: filter .1s ease-in-out;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+  }
+  
+  #image7:hover {
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+  }
+  #image8 {
+    transition: filter .1s ease-in-out;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+  }
+  
+  #image8:hover {
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+  }
+  #image9 {
+    transition: filter .1s ease-in-out;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+  }
+  
+  #image9:hover {
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+  }
+  #image10 {
+    transition: filter .1s ease-in-out;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+  }
+  
+  #image10:hover {
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+  }
+  #image11 {
+    transition: filter .1s ease-in-out;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+  }
+  
+  #image11:hover {
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+  }
+  #image12 {
+    transition: filter .1s ease-in-out;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+  }
+  
+  #image12:hover {
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+  }
+/*home/about Page*/ 
+/* flip card from w3schools */
+  .cardcontainer {
+    position: relative;
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    perspective: 1000px;
+    margin: auto;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: transparent;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #00c6f8;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 5px;
+  }
+
+
+/* Contact form templete from www.w3schools.com image from unsplash.com*/
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #00c6f8;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #8b8b8b;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/*Project Page images from unsplash.com*/
+.project-container{
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-gap: 15px;
+}
+.project-parallax{
+  opacity: 0.5;
+}
+header{
+  background-attachment: fixed; /* Parallax effect */     
+  background-position: center;  /* Parallax effect */
+  background-repeat: no-repeat; /* Parallax effect */
+  background-size: cover;       /* Parallax effect */
+  height: 400px;                /* Parallax effect */
+
+  background-image: url("../imgs/project-parallax.png");
+  background-repeat: no-repeat;
+
+  grid-column: 1 / -1;  
+  grid-row: 1 / auto;  
+}
+
+.oma, .a2, .wright{
+  grid-column: 2/ span 1;
+}
+
+.oma-image, .a2-image, .wright-image{
+  grid-column: 1/4;
+  max-height: 700px;
+  overflow: hidden;
+}
+
+.oma, .oma-image{
+   grid-row: 2/ auto;
+}
+
+.a2, .a2-image{
+   grid-row: 3/ auto;
+}
+
+.wright, .wright-image{
+    grid-row: 4/ auto;
+}
+
+.text-block{
+background-color: rgba(255, 255, 255, .8);
+  border: 5px solid #00c6f8;
+  padding: 30px;
+  align-self: center;
+}
+
+
+
+@media all and (min-width: 800px){
+  nav{
+    padding: 30px 0px;
+    text-align: right;
+    vertical-align: middle;
+    /*Your code here:*/
+  }
+  
+
+  .project-container{
+    grid-template-columns: 50px auto 500px auto 50px;
+    grid-template-rows: 400px 400px 400px 400px 400px;
+  }
+
+  .oma, .wright, .a2-image{
+    grid-column: 3/ span 2;
+  }
+
+  .oma-image, .wright-image, .a2{
+    grid-column: 2/ span 2;
+  }
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+  
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+/*Add media query to handle reduced-motion*/
+@media screen and (prefers-reduced-motion: reduce) {
+  #logo {animation: none}
+}
