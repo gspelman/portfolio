@@ -80,7 +80,7 @@ padding: 20px 10px;
   
   .topnav a.active {
 	background-color: #00c6f8;
-	color: white;
+	color: black;
   }
 
 
@@ -288,7 +288,7 @@ padding: 20px 10px;
   
   .flip-card-back {
     background-color: #00c6f8;
-    color: white;
+    color: black;
     transform: rotateY(180deg);
     padding: 5px;
   }
@@ -311,7 +311,7 @@ input[type=text], select, textarea {
 
 input[type=submit] {
   background-color: #00c6f8;
-  color: white;
+  color: black;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
